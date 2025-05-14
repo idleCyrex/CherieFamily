@@ -1338,6 +1338,9 @@ a:hover::before {
     font-size: 60px;
     text-align: center;
   }
+    .storyContentContainer{
+        height:400px
+    }
   .secontTitle span{
     width: 80vw;
   }
