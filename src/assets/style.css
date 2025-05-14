@@ -1193,8 +1193,11 @@ a:hover::before {
     display: none;
   }
   .storyText{
-    font-size: 13px;
+    font-size: 17px;
     text-align: center;
+  }
+  .storyinnertext{
+      margin-top: 200px;
   }
   .storyContent{
     background-color: transparent;
