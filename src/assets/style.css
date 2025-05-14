@@ -960,7 +960,7 @@ a:hover::before {
 }
 
 .storyContent{
-  width: 90vw;
+  width: 100vw;
   height: 456px;
   background-color: #2b2b2b3d;
   border-radius: 80px;
