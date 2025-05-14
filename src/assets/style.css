@@ -1201,6 +1201,7 @@ a:hover::before {
  }
     .storyContent{
         height: auto;
+        width: 100vw;
     }
   .storyText{
     font-size: 17px;
