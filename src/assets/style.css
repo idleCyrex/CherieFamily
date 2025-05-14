@@ -1193,7 +1193,7 @@ a:hover::before {
     display: none;
   }
     .storyVideo{
-        margin-top:100px;
+        margin-top: 0px;
         margin-bottom: 100px;
     }
  .storyContentContainer{
@@ -1208,6 +1208,7 @@ a:hover::before {
   }
   .storyContent{
     background-color: transparent;
+      height:auto;
   }
   .storyContainer{
     margin-bottom: 0px;
