@@ -1192,12 +1192,15 @@ a:hover::before {
   .storyImageRight{
     display: none;
   }
+    .storyVideo{
+        margin-top:100px;
+    }
   .storyText{
     font-size: 17px;
     text-align: center;
   }
   .storyinnertext{
-      margin-top: 200px;
+      margin-top: 180px;
   }
   .storyContent{
     background-color: transparent;
