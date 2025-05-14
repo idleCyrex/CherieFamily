@@ -1199,6 +1199,9 @@ a:hover::before {
  .storyContentContainer{
      width: 90vw;
  }
+    .storyContent{
+        height: auto;
+    }
   .storyText{
     font-size: 17px;
     text-align: center;
