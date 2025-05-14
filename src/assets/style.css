@@ -1194,7 +1194,11 @@ a:hover::before {
   }
     .storyVideo{
         margin-top:100px;
+        margin-bottom: 100px;
     }
+ .storyContentContainer{
+     width: 90vw;
+ }
   .storyText{
     font-size: 17px;
     text-align: center;
