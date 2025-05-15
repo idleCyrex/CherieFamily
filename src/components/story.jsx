@@ -24,7 +24,7 @@ function Story() {
                 </div>
                 <div className='storyVideo'>
   <a 
-    href="https://www.youtube.com/shorts/0YHiGP3ezsc?si=yeVDa5Oz8v1ktOwV" 
+    href="https://youtu.be/TaANGJRq1L8" 
     target="_blank" 
     rel="noopener noreferrer" 
     className="videoLink"
