@@ -9,73 +9,73 @@
     font-family: 'Coco Gothic';
     font-style: normal;
     font-weight: 400;
-    src: local('Coco Gothic'), url('https://fonts.cdnfonts.com/s/18222/Coco-Gothic-Regular-trial.woff') format('woff');
+    src: local('Coco Gothic'), url('/fonts/Coco-Gothic-Regular-trial.woff') format('woff');
 }
 @font-face {
     font-family: 'Coco Gothic';
     font-style: italic;
     font-weight: 400;
-    src: local('Coco Gothic'), url('https://fonts.cdnfonts.com/s/18222/Coco-Gothic-Italic-trial.woff') format('woff');
+    src: local('Coco Gothic'), url('/fonts/Coco-Gothic-Regular-trial.woff') format('woff');
 }
 @font-face {
     font-family: 'Coco Gothic';
     font-style: normal;
     font-weight: 200;
-    src: local('Coco Gothic'), url('https://fonts.cdnfonts.com/s/18222/Coco-Gothic-Ultralight-trial.woff') format('woff');
+    src: local('Coco Gothic'), url('/fonts/Coco-Gothic-Regular-trial.woff') format('woff');
 }
 @font-face {
     font-family: 'Coco Gothic';
     font-style: normal;
     font-weight: 300;
-    src: local('Coco Gothic'), url('https://fonts.cdnfonts.com/s/18222/Coco-Gothic-Light-trial.woff') format('woff');
+    src: local('Coco Gothic'), url('/fonts/Coco-Gothic-Regular-trial.woff') format('woff');
 }
 @font-face {
     font-family: 'Coco Gothic';
     font-style: italic;
     font-weight: 300;
-    src: local('Coco Gothic'), url('https://fonts.cdnfonts.com/s/18222/Coco-Gothic-Light-Italic-trial.woff') format('woff');
+    src: local('Coco Gothic'), url('/fonts/Coco-Gothic-Regular-trial.woff') format('woff');
 }
 @font-face {
     font-family: 'Coco Gothic';
     font-style: normal;
     font-weight: 700;
-    src: local('Coco Gothic'), url('https://fonts.cdnfonts.com/s/18222/Coco-Gothic-Bold-trial.woff') format('woff');
+    src: local('Coco Gothic'), url('/fonts/Coco-Gothic-Regular-trial.woff') format('woff');
 }
 @font-face {
     font-family: 'Coco Gothic';
     font-style: italic;
     font-weight: 700;
-    src: local('Coco Gothic'), url('https://fonts.cdnfonts.com/s/18222/Coco-Gothic-Bold-Italic-trial.woff') format('woff');
+    src: local('Coco Gothic'), url('/fonts/Coco-Gothic-Regular-trial.woff') format('woff');
 }
 @font-face {
     font-family: 'Coco Gothic';
     font-style: normal;
     font-weight: 900;
-    src: local('Coco Gothic'), url('https://fonts.cdnfonts.com/s/18222/Coco-Gothic-Heavy-trial.woff') format('woff');
+    src: local('Coco Gothic'), url('/fonts/Coco-Gothic-Regular-trial.woff') format('woff');
 }
 @font-face {
     font-family: 'Coco Gothic';
     font-style: italic;
     font-weight: 900;
-    src: local('Coco Gothic'), url('https://fonts.cdnfonts.com/s/18222/Coco-Gothic-Heavy-Italic-trial.woff') format('woff');
+    src: local('Coco Gothic'), url('/fonts/Coco-Gothic-Regular-trial.woff') format('woff');
 }
 @font-face {
     font-family: 'Coco Gothic';
     font-style: normal;
     font-weight: 950;
-    src: local('Coco Gothic'), url('https://fonts.cdnfonts.com/s/18222/Coco-Gothic-Fat-trial.woff') format('woff');
+    src: local('Coco Gothic'), url('/fonts/Coco-Gothic-Regular-trial.woff') format('woff');
 }
 @font-face {
     font-family: 'Coco Gothic';
     font-style: italic;
     font-weight: 950;
-    src: local('Coco Gothic'), url('https://fonts.cdnfonts.com/s/18222/Coco-Gothic-Fat-Italic-trial.woff') format('woff');
+    src: local('Coco Gothic'), url('/fonts/Coco-Gothic-Regular-trial.woff') format('woff');
 }
 @font-face {
     font-family: 'Coco Gothic Alternate';
     font-style: italic;
     font-weight: 200;
-    src: local('Coco Gothic Alternate'), url('https://fonts.cdnfonts.com/s/18222/Coco-Gothic-Ultralight-Italic-trial.woff') format('woff');
+    src: local('Coco Gothic Alternate'), url('/fonts/Coco-Gothic-Regular-trial.woff') format('woff');
 }
 body{
     margin: 0;
