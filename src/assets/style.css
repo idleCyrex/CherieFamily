@@ -213,9 +213,9 @@ a:hover::before {
   text-align: center;
 }
 .hero-img {
-  width: 500px; /* Initial size */
-  height: auto; /* Maintain aspect ratio */
-  max-width: 100%; /* Ensure the image doesn't exceed the container width */
+  width: 500px; 
+  height: auto;
+  max-width: 100%; 
 }
 
 
@@ -399,14 +399,14 @@ a:hover::before {
   height: 0px;
 }
 .popup-content {
-  background-color: rgb(10, 10, 10); /* Slightly transparent white background */
+  background-color: rgb(10, 10, 10); 
   padding: 20px;
   border-color: #1f1f1f;
   border-width: 2px;
   border-radius: 10px;
   border-style: solid;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  text-align: center; /* Centers text inside the popup */
+  text-align: center;
 }
 .popup-content h2 {
   font-family: 'Coco Gothic', sans-serif;
@@ -744,7 +744,7 @@ a:hover::before {
 
 .thirdcards:hover .thirdcardstitle,
 .thirdcards:hover .thirdcardsdesc {
-  opacity: 40%; /* Set opacity to 40% */
+  opacity: 40%; 
 }
 
 .backgroundthird{
@@ -823,7 +823,7 @@ a:hover::before {
   font-style: italic;
 }
 .swiper-slide {
-  width: 300px !important; /* Slightly bigger to leave space for padding */
+  width: 300px !important; 
   height: auto !important; 
 }
 .swiper-pagination-bullet{
@@ -978,7 +978,7 @@ a:hover::before {
   width: 0;
   height: 0;
   border-top: 100vh solid transparent;
-  border-left: 5vw solid rgb(10, 10, 10); /* Adjust this value based on the desired width of the triangle */
+  border-left: 5vw solid rgb(10, 10, 10);
   filter: drop-shadow(5px 0px 10px rgba(0, 0, 0, 0.692));
 
 }
@@ -1182,7 +1182,7 @@ a:hover::before {
 }
 
 .videoLink:hover {
-  color: white; /* Slight color change on hover */
+  color: white;
 }
 .button:hover {
   color: #F3F8FF;
