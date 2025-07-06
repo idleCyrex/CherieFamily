@@ -12,7 +12,7 @@ Cherié Family is a Colombian exporter delivering Cavendish bananas, Arabica cof
 
 ## Demo
 
-<[Visit the website:](https://www.cheriefamily.com/) 
+[Visit the website:](https://www.cheriefamily.com/) 
 
 ## Getting Started
 To get a local copy up and running: 
