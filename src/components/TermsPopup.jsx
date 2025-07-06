@@ -5,7 +5,6 @@ const TermsPopup = () => {
     const [isOpen, setIsOpen] = useState(false);
 
     useEffect(() => {
-        // Check if the user has already accepted the terms
         const hasAccepted = localStorage.getItem('termsAccepted');
         if (!hasAccepted) {
             setIsOpen(true);
@@ -13,7 +12,6 @@ const TermsPopup = () => {
     }, []);
 
     const handleClose = () => {
-        // Save acceptance in local storage
         localStorage.setItem('termsAccepted', 'true');
         setIsOpen(false);
     };
