@@ -1,8 +1,27 @@
-# React + Vite
+# CherieFamily
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to CherieFamily! This repository hosts a modern React project.
 
-Currently, two official plugins are available:
+## About
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Cherié Family is a Colombian exporter delivering Cavendish bananas, Arabica coffee, and Porcelain cacao nibs straight from local farms to Europe. They focus on quality and sustainability, ensuring fresh, premium agricultural products reach international markets
+
+## Features
+- Fully responsive design
+- React-based frontend
+
+## Demo
+
+<[Visit the website:](https://www.cheriefamily.com/) 
+
+## Getting Started
+To get a local copy up and running: 
+
+**Frontend**
+
+1. Clone the repo:
+ ```git clone https://github.com/idleCyrex/CherieFamily.git```
+2. Install frontend dependencies:
+ ```npm install```
+3. Start the development server:
+ ```npm run dev```
