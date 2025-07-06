@@ -10,7 +10,7 @@ function Hero() {
       <Navbar />
       <div id="hero" style={{ position: "relative", width: "100%", height: "100vh", overflow: "hidden" }}>
         <video 
-          src="https://raw.githubusercontent.com/idleCyrex/CherieFamily/blob/master/Video.mp4" 
+          src="https://raw.githubusercontent.com/idleCyrex/CherieFamily/master/Video.mp4" 
           autoPlay 
           loop 
           muted 
