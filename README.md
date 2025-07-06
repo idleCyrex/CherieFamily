@@ -20,8 +20,14 @@ To get a local copy up and running:
 **Frontend**
 
 1. Clone the repo:
- ```git clone https://github.com/idleCyrex/CherieFamily.git```
-2. Install frontend dependencies:
- ```npm install```
-3. Start the development server:
- ```npm run dev```
+ ```bash
+git clone https://github.com/idleCyrex/CherieFamily.git
+```
+3. Install frontend dependencies:
+ ```bash
+npm install
+```
+5. Start the development server:
+ ```bash
+npm run dev
+```
