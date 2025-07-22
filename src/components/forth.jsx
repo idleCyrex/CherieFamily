@@ -16,9 +16,9 @@ const menuItems = [
   { img: coffee, title: 'Colombian Coffee', desc: 'Available now', pdf: '/coffee.pdf' },
   { img: coffee, title: 'Nicaraguan Coffee', desc: 'Available now', pdf: '/coffeen.pdf' },
   { img: caco, title: 'Cacao Nibs', desc: 'Available now', pdf: '/caco.pdf' },
-  { img: banana, title: 'Bananas Onkel', desc: 'Coming up May 2025', pdf: '/bananaonkel.pdf' },
-  { img: banana, title: 'Bananas Tucan', desc: 'Coming up May 2025', pdf: '/bananatucan.pdf' },
-  { img: blueberry, title: 'Berries', desc: 'Coming up May 2025', pdf: '/Comingsoon.pdf' },
+  { img: banana, title: 'Bananas Onkel', desc: 'Coming Soon', pdf: '/bananaonkel.pdf' },
+  { img: banana, title: 'Bananas Tucan', desc: 'Coming Soon', pdf: '/bananatucan.pdf' },
+  { img: blueberry, title: 'Berries', desc: 'Coming Soon', pdf: '/Comingsoon.pdf' },
 ];
 
 function Forth() {
