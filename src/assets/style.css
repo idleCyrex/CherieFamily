@@ -1283,9 +1283,10 @@ a:hover::before {
     font-size: 17px;
     text-align: center;
   }
-  .storyinnertext{
-      margin-top: 180px;
-  }
+    .storyinnertext {
+        margin-top: 150px;
+        width: 95%;
+    }
   .storyContent{
     background-color: transparent;
       height:auto;
