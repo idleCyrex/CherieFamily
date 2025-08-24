@@ -30,25 +30,30 @@ function Second() {
   }, []);
 
   return (
-    <>
-      <div id="second" className="secondContainer">
-        <motion.div
-          ref={titleRef}
-          className="secontTitle"
-          initial={{ opacity: 0, y: 50 }}
-          animate={isVisible ? { opacity: 1, y: 0 } : {}}
-          transition={{ duration: 1, ease: "easeOut" }}
-        >
-          <span>Our roots, your goods</span>
-        </motion.div>
-        <div className='newtextSecondCotainer'>
-          <div className='containernewtextSecondCotainer'>
-            <span>Directly sourced from the fertile farms of <span className='bold'>Colombia</span>, we bring the European market the finest Cavendish bananas, Arabica coffee, Porcelain cacao nibs, and seasonal fruits. We partner with local farmers dedicated to quality and sustainability, ensuring that every product is fresh, ethically grown, and delivered straight from the source.</span>
-          </div>
-        </div>
-      </div>
+    <div id="second" className="secondContainer">
+      <motion.div
+        ref={titleRef}
+        className="secontTitle"
+        initial={{ opacity: 0, y: 50 }}
+        animate={isVisible ? { opacity: 1, y: 0 } : {}}
+        transition={{ duration: 1, ease: "easeOut" }}
+      >
+        <span>Our roots, your goods</span>
+      </motion.div>
 
-    </>
+      <motion.div
+        className='newtextSecondCotainer'
+        initial={{ opacity: 0 }}
+        animate={isVisible ? { opacity: 1 } : {}}
+        transition={{ duration: 1.5, ease: "easeOut", delay: 0.3 }}
+      >
+        <div className='containernewtextSecondCotainer'>
+          <span>
+            Directly sourced from the fertile farms of <span className='bold'>Colombia</span>, we bring the European market the finest Cavendish bananas, Arabica coffee, Porcelain cacao nibs, and seasonal fruits. We partner with local farmers dedicated to quality and sustainability, ensuring that every product is fresh, ethically grown, and delivered straight from the source.
+          </span>
+        </div>
+      </motion.div>
+    </div>
   );
 }
 
