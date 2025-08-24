@@ -76,7 +76,7 @@ function Forth() {
   slidesPerView={"auto"}
   centeredSlides={true}
   spaceBetween={30}
-  initialSlide={1} 
+  initialSlide={2} 
   navigation={true}
   modules={[EffectCoverflow, Navigation]}
   className="mySwiper"
