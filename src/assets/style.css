@@ -882,10 +882,13 @@ a:hover::before {
   gap: 20px;
   flex-direction: column;
   width: 60vw;
-  background-color: #2b2b2b3d;
+  background-color: #08000049;
   height: fit-content;
   padding: 100px;
   border-radius: 80px;
+}
+.oldddd{
+  color: #2b2b2b3d;
 }
 .footerright img{
   width: auto;
@@ -1038,7 +1041,7 @@ a:hover::before {
 .storyContent{
   width: calc(60vw + 200px);;
   height: 456px;
-  background-color: #2b2b2b3d;
+  background-color: #08000049;
   border-radius: 80px;
   display: flex;
 }
