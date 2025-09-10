@@ -1198,9 +1198,7 @@ a:hover::before {
 .videoLink a{
   text-decoration: none;
 }
-.story_wrapper a::before{
-  background-color: transparent !important;
-}
+
 
 .navbarleft a::before{
   background-color: transparent !important;

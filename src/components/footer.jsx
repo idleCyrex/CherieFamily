@@ -6,7 +6,7 @@ function Footer() {
       <img src={wave} alt="wave" className='wave_img2 unselectable'/>
       <div className='contact_wrapper2'>
         <div className='contact_wrapper'>
-          <div className='contact_container'>
+          <div id='forth' className='contact_container'>
             <span className='contact_title'>GET IN TOUCH!</span>
             <span className='contact_desc'>contact@cheriefamily.com</span>
             <span className='contact_desc'>+33 787 26 14 14</span>

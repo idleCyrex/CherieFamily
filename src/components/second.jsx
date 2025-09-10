@@ -4,7 +4,7 @@ function Second() {
   return (
     <div>
       <img src={wave} alt="wave" className='wave_img unselectable' />
-      <div className="second_container">
+      <div id='second' className="second_container">
         <div className='second_wrapper'>
           <span className='second_desc'>
             At Chérie at Sea, we create luxury catering experiences designed with the yachting lifestyle in mind, serving <span className='bold'>Marbella, Málaga, Gibraltar</span>, and the rest of the <span className='bold'>Costa del Sol</span>. From sunrise breakfasts to sunset soirées, our menus are crafted to elevate every moment onboard.
