@@ -554,6 +554,11 @@ a:hover::before {
   margin-top: 20px;
 }
 
+.linieeee{
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
 .card {
   width: 300px;
   color: #fff;
