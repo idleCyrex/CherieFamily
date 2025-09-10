@@ -394,7 +394,6 @@ a:hover::before {
   width: 100vw;
   height: 100vh;
   display: flex;
-  background-color: rgba(0, 0, 0, 0.1);
   z-index: 1000;
   align-items: flex-end;
   margin-bottom: 20px;
@@ -407,19 +406,20 @@ a:hover::before {
   height: 0px;
 }
 .popup-content {
-  background-color: rgb(10, 10, 10); 
-  padding: 20px;
-  border-color: #1f1f1f;
-  border-width: 2px;
-  border-radius: 10px;
-  border-style: solid;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  text-align: center;
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-color: #08628f;
+    border-width: 2px;
+    border-radius: 10px;
+    border-style: solid;
+    box-shadow: 0 4px 8px #0003;
+    text-align: center;
+    /* color: #333; */
 }
 .popup-content h2 {
   font-family: 'Coco Gothic', sans-serif;
   margin: 0 0 10px;
-  color: white;
+  color: #18375d;
 
 }
 .anpc{
