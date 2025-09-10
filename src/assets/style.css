@@ -443,7 +443,7 @@ a:hover::before {
 }
 .popup-content p {
   font-family: 'Coco Gothic', sans-serif;
-  color: white;
+  color: #18375d;
 
   margin: 0 0 15px;
 }
@@ -961,14 +961,7 @@ a:hover::before {
 .marggintop{
   margin-top: -60px;
 }
-.red {
-  margin-left: 20px;
-  background-color: transparent !important;
-  border-color: #aa0606 !important;
-}
-.red::before{
-  background-color: #bb0404 !important;
-}
+
 .parallax-container {
   perspective: 1px;
   height: 100vh;
