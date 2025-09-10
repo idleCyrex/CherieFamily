@@ -1,107 +1,45 @@
-import React, { useEffect, useRef, useState } from 'react'; 
-import { motion } from 'framer-motion';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
-import 'swiper/css/effect-coverflow';
 import 'swiper/css/navigation';
-import { EffectCoverflow, Navigation } from 'swiper/modules';
+import 'swiper/css/pagination';
 
-import banana from '../assets/img/banana.jpg';
-import blueberry from '../assets/img/blueberry.jpg';
-import cherry from '../assets/img/cherry.jpg';
-import coffee from '../assets/img/coffee.jpg';      
-import caco from '../assets/img/caco.png';
+import { Navigation } from 'swiper/modules';
 
-const menuItems = [  
-  { img: coffee, title: 'Colombian Coffee', desc: 'Available now', pdf: '/coffee.pdf' },
-  { img: coffee, title: 'Nicaraguan Coffee', desc: 'Available now', pdf: '/coffeen.pdf' },
-  { img: caco, title: 'Cacao Nibs', desc: 'Available now', pdf: '/caco.pdf' },
-  { img: banana, title: 'Bananas Onkel', desc: 'Coming Soon', pdf: '/bananaonkel.pdf' },
-  { img: banana, title: 'Bananas Tucan', desc: 'Coming Soon', pdf: '/bananatucan.pdf' },
-  { img: blueberry, title: 'Berries', desc: 'Coming Soon', pdf: '/Comingsoon.pdf' },
-];
+import img1 from '../assets/img/1.jpg';
+import img2 from '../assets/img/2.jpg';
+import img3 from '../assets/img/3.jpg';
+import img4 from '../assets/img/4.jpg';
+import img5 from '../assets/img/5.jpg';
+import img6 from '../assets/img/6.jpg';
+import img7 from '../assets/img/7.jpg';
 
 function Forth() {
-  const titleRef = useRef(null);
-  const containerRef = useRef(null);
-  const [isVisible, setIsVisible] = useState(false);
-  const [hasAnimated, setHasAnimated] = useState(false);
-
-  useEffect(() => {
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        if (entry.isIntersecting && !hasAnimated) {
-          setIsVisible(true);
-          setHasAnimated(true);
-        }
-      },
-      { threshold: 0.5 }
-    );
-
-    if (containerRef.current) {
-      observer.observe(containerRef.current);
-    }
-
-    return () => {
-      if (containerRef.current) {
-        observer.unobserve(containerRef.current);
-      }
-    };
-  }, [hasAnimated]);
+  const images = [img5, img7, img3, img1, img6, img4, img2];
 
   return (
-    <div
-      id="forth"
-      ref={containerRef}
-      className="thirdcontainer"
-      style={{ position: 'relative', top: 0 }}
-    >
-      <motion.div
-        ref={titleRef}
-        className="thirdTitler"
-        initial={{ opacity: 0, y: 50 }}
-        animate={isVisible ? { opacity: 1, y: 0 } : {}}
-        transition={{ duration: 1, ease: 'easeOut' }}
+    <div className="unselectable">
+      <Swiper
+        spaceBetween={10} 
+        navigation
+        modules={[Navigation]}
+        className="mySwiper"
+        breakpoints={{
+          320: { slidesPerView: 1.2 },
+          640: { slidesPerView: 2.2 },
+          1024: { slidesPerView: 3.2 },
+          1440: { slidesPerView: 3.8 },
+        }}
       >
-        <span>Coming up next...</span>
-      </motion.div>
-
-      <motion.div
-        className="thirdcardcontainer"
-        initial={{ opacity: 0, y: 50 }}
-        animate={isVisible ? { opacity: 1, y: 0 } : {}}
-        transition={{ duration: 1, ease: 'easeOut', delay: 0.5 }}
-      >
-<Swiper
-  slidesPerView={"auto"}
-  centeredSlides={true}
-  spaceBetween={30}
-  initialSlide={2} 
-  navigation={true}
-  modules={[EffectCoverflow, Navigation]}
-  className="mySwiper"
->
-          {menuItems.map((item, index) => (
-            <SwiperSlide key={index}>
-              <div
-                className="thirdcards"
-                onClick={() => window.open(item.pdf, '_blank')}
-                style={{ cursor: 'pointer', position: 'relative' }}
-              >
-                <div className="thirdcardsimg">
-                  <img src={item.img} alt={item.title} />
-                  <div className="hoverOverlay">
-                    <span>See technical sheet</span>
-                  </div>
-                </div>
-                <span className="thirdcardstitle">{item.title}</span>
-                <span className="thirdcardsdesc">{item.desc}</span>
-              </div>
-            </SwiperSlide>
-          ))}
-        </Swiper>
-      </motion.div>
-      <span className='footerforthcontainer'>From Farm to Market, with Passion.</span>
+        {images.map((src, index) => (
+          <SwiperSlide key={index}>
+            <img
+              src={src}
+              alt={`img-${index}`}
+              className="slidess-img"
+            />
+          </SwiperSlide>
+        ))}
+      </Swiper>
     </div>
   );
 }

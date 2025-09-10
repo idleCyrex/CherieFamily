@@ -1,58 +1,31 @@
-import React, { useEffect, useRef, useState } from 'react';
-import { motion } from 'framer-motion';
-import cherriess from "../assets/img/cherriess.png";
-import filed from "../assets/img/filed2.jpg";
+import wave from '../assets/img/1.png';
 
 function Second() {
-  const titleRef = useRef(null);
-  const [isVisible, setIsVisible] = useState(false);
-
-  useEffect(() => {
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        if (entry.isIntersecting) {
-          setIsVisible(true);
-          observer.disconnect();
-        }
-      },
-      { threshold: 0.5 }
-    );
-
-    if (titleRef.current) {
-      observer.observe(titleRef.current);
-    }
-
-    return () => {
-      if (titleRef.current) {
-        observer.unobserve(titleRef.current);
-      }
-    };
-  }, []);
-
   return (
-    <div id="second" className="secondContainer">
-      <motion.div
-        ref={titleRef}
-        className="secontTitle"
-        initial={{ opacity: 0, y: 50 }}
-        animate={isVisible ? { opacity: 1, y: 0 } : {}}
-        transition={{ duration: 1, ease: "easeOut" }}
-      >
-        <span>Our roots, your goods</span>
-      </motion.div>
-
-      <motion.div
-        className='newtextSecondCotainer'
-        initial={{ opacity: 0 }}
-        animate={isVisible ? { opacity: 1 } : {}}
-        transition={{ duration: 1.5, ease: "easeOut", delay: 0.3 }}
-      >
-        <div className='containernewtextSecondCotainer'>
-          <span>
-            Directly sourced from the fertile farms of <span className='bold'>Colombia</span>, we bring the European market the finest Cavendish bananas, Arabica coffee, Porcelain cacao nibs, and seasonal fruits. We partner with local farmers dedicated to quality and sustainability, ensuring that every product is fresh, ethically grown, and delivered straight from the source.
+    <div>
+      <img src={wave} alt="wave" className='wave_img unselectable' />
+      <div className="second_container">
+        <div className='second_wrapper'>
+          <span className='second_desc'>
+            At Chérie at Sea, we create luxury catering experiences designed with the yachting lifestyle in mind, serving <span className='bold'>Marbella, Málaga, Gibraltar</span>, and the rest of the <span className='bold'>Costa del Sol</span>. From sunrise breakfasts to sunset soirées, our menus are crafted to elevate every moment onboard.
           </span>
+          <span className='second_desc'>
+            Our bespoke platters feature only the finest ingredients: jamón ibérico, caviar, artisanal tapas, fresh seasonal fruit, and signature desserts, paired with chilled champagne, fine wines, and refreshing juices. Each order is delivered directly to your yacht, ready to be enjoyed without effort, whether for an intimate cruise, a charter guest experience, or a special celebration at sea. 
+          </span>
+          <span className='second_desc'>
+            Orders can be placed <span className='bold'>until 9 PM the day before</span> your event and there is <span className='bold'>no minimum</span> number of guests.
+          </span>
+          
+          <a 
+            href="/Menu Cherie at Sea.pdf" 
+            download="Menu Cherie at Sea.pdf"
+          >
+            <button className="button">
+              <span>MENU</span>
+            </button>
+          </a>
         </div>
-      </motion.div>
+      </div>
     </div>
   );
 }

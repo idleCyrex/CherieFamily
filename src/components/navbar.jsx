@@ -15,15 +15,23 @@ function Navbar() {
       <div className="navbar">
         <div className="navbarcontainer">
           <div className="navbarleft">
-            <img src={logo} alt="logo" />
-          </div>
-          <div className="navbarrightright pc">
-
+            <a href="/">
+              <img src={logo} alt="logo" className='logo unselectable' />
+            </a>
           </div>
           <div className="navbarright pc">
             <Link to="hero" smooth={true} duration={500} offset={-window.innerHeight / 4}>Home</Link>
             <Link to="second" smooth={true} duration={500} offset={-window.innerHeight / 3}>About Us</Link>
-            <Link to="forth" smooth={true} duration={500} offset={-window.innerHeight / 4}>Products</Link>
+            
+            {/* Menu now downloads PDF */}
+            <a 
+              href="/Menu Cherie at Sea.pdf" 
+              download="Menu Cherie at Sea.pdf"
+            >
+              Menu
+            </a>
+
+            <Link to="forth" smooth={true} duration={500} offset={-window.innerHeight / 4}>Contact Us</Link>
           </div>
 
           <div className="navbarrightright mobile">
@@ -33,18 +41,23 @@ function Navbar() {
           </div>
         </div>
       </div>
+
       {isMobileMenuOpen && (
         <div className="mobile-menu fade-in">
           <button className="close-button" onClick={toggleMobileMenu}>&times;</button>
           <div className="mobile-menu-links">
-            <Link to="hero" smooth={true} duration={500} offset={-window.innerHeight / 4} onClick={toggleMobileMenu}>Home</Link>
-            <Link to="second" smooth={true} duration={500} offset={-window.innerHeight / 3} onClick={toggleMobileMenu}>About Us</Link>
-            <Link to="forth" smooth={true} duration={500} offset={-window.innerHeight / 4} onClick={toggleMobileMenu}>Products</Link>
-            <Link to="footer" smooth={true} duration={500} offset={-window.innerHeight / 4} onClick={toggleMobileMenu}>
-              <button className="button">
-                <span>Contact us</span>
-              </button>
-            </Link>
+            <Link to="hero" smooth={true} duration={500} offset={-window.innerHeight / 4}>Home</Link>
+            <Link to="second" smooth={true} duration={500} offset={-window.innerHeight / 3}>About Us</Link>
+
+            {/* Same for mobile menu */}
+            <a 
+              href="/Menu Cherie at Sea.pdf" 
+              download="Menu Cherie at Sea.pdf"
+            >
+              Menu
+            </a>
+
+            <Link to="forth" smooth={true} duration={500} offset={-window.innerHeight / 4}>Contact Us</Link>
           </div>
         </div>
       )}

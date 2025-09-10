@@ -2,7 +2,6 @@ import React from "react";
 import cheireimg1 from "../assets/img/Cherie1.png";
 import cheireimg2 from "../assets/img/Cherie2.png";
 import Navbar from "./navbar";
-import { Link } from 'react-scroll';
 
 function Hero() {
   return (
@@ -25,21 +24,19 @@ function Hero() {
             zIndex: "-2" 
           }}
         />
-        
+
         <div
-  style={{
-    position: "absolute",
-    bottom: 0,
-    left: 0,
-    width: "100%",
-    height: "100%",
-    background: "rgb(10, 10, 10)", // Fallback color
-    background: "linear-gradient(to top, rgb(10, 10, 10), transparent)",
-    zIndex: 0,
-    pointerEvents: "none",
-    willChange: "transform",
-  }}
-></div>
+          style={{
+            position: "absolute",
+            bottom: 0,
+            left: 0,
+            width: "100%",
+            height: "100%",
+            zIndex: 0,
+            pointerEvents: "none",
+            willChange: "transform",
+          }}
+        ></div>
 
         <div className="hero-content">
           <div className="hero-first">
@@ -50,11 +47,14 @@ function Hero() {
             </div>
           </div>
           <div className="hero-second fade-in-delay">
-            <Link to="footer" smooth={true} duration={500} offset={-window.innerHeight / 4}>
+            <a 
+              href="/Menu Cherie at Sea.pdf" 
+              download="Menu Cherie at Sea.pdf"
+            >
               <button className="button">
-                <span>Contact us</span>
+                <span>ORDER ONLINE</span>
               </button>
-            </Link>
+            </a>
           </div>
         </div>
       </div>
