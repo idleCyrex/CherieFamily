@@ -1310,7 +1310,7 @@ a:hover::before {
   color: #18375d;
   font-family: 'Poppins', sans-serif;
 }
-.footer_logos a::before{
+ a::before{
   background-color: transparent !important;
 }
 .contact_wrapper {
@@ -1458,8 +1458,8 @@ a:hover::before {
   display:flex;
   justify-content: center;
   align-items: center;
-  flex-directions: column;
-}
+        flex-direction: column;
+    }
 .second_wrapper{
   width: 90vw;
 }
