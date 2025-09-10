@@ -86,6 +86,8 @@ body{
   font-family: 'Poppins', sans-serif;
 }
 
+
+
 :root {
   --dark: 0;
   --transition: 0.28s;
@@ -1372,7 +1374,8 @@ a:hover::before {
 .contact_icons_wrapper a::before{
   background-color: transparent !important;
 }
-
+@media (max-width: 1980px) {
+}
 
 
 
@@ -1450,6 +1453,12 @@ a:hover::before {
 }
 .footer_logos{
   display: flex;
+}
+  .footer_logos{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-directions: column;
 }
 .second_wrapper{
   width: 90vw;
