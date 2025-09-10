@@ -51,10 +51,10 @@ function Footer() {
         <div className="footer_container">
           <span className='footer_desc_wrapper'>
              <span className='footer_desc'>
-                Chérie Exports © 2025 <span className='linieeee'>|</span>
+                Chérie Exports © 2025<span className='linieeee'>|</span>
               </span>
               <span className='footer_desc'>
-                 Privacy Policy, Terms of Service, Cookie Policy
+                 Privacy Policy. Terms of Service. Cookie Policy
                </span>
           </span>
           <div className='footer_logos'>
