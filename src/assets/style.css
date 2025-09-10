@@ -1374,17 +1374,6 @@ a:hover::before {
 .contact_icons_wrapper a::before{
   background-color: transparent !important;
 }
-@media (max-width: 1920px) and (max-height: 1200px) {
-  .second_desc{
-    font-size: 16px;
-  }
-  .story_desc{
-    font-size: 16px;
-  }
-  .story_desc_highlight{
-    font-size: 16px;
-  }
-}
 @media (max-width: 2560px) and (max-height: 1440px) {
   .second_desc{
     font-size: 18px;
@@ -1396,6 +1385,17 @@ a:hover::before {
     font-size: 18px;
   }
 }
+@media (max-width: 1920px) and (max-height: 1200px) {
+  .second_desc{
+    font-size: 16px;
+  }
+  .story_desc{
+    font-size: 16px;
+  }
+  .story_desc_highlight{
+    font-size: 16px;
+  }
+}
 
 
 
@@ -1405,6 +1405,15 @@ a:hover::before {
   }
   .footerSmall{
     font-size: 20px;
+  }
+    .second_desc{
+    font-size: 15px;
+  }
+  .story_desc{
+    font-size: 15px;
+  }
+  .story_desc_highlight{
+    font-size: 15px;
   }
 }
 @media (max-width: 1600px) {
