@@ -6,9 +6,9 @@
   "welcome": "BIENVENIDO A",
   "order": "PEDIR EN LÍNEA",
   "second": {
-    "p1": "En Chérie at Sea, creamos experiencias de catering de lujo diseñadas pensando en el estilo de vida náutico, sirviendo en Marbella, Málaga, Gibraltar y el resto de la Costa del Sol. Desde desayunos al amanecer hasta veladas al atardecer, nuestros menús están elaborados para elevar cada momento a bordo.",
+    "p1": "En Chérie at Sea, creamos experiencias de catering de lujo diseñadas pensando en el estilo de vida náutico, sirviendo en <span class=\"bold\">Marbella, Málaga, Gibraltar</span> y el resto de la <span class=\"bold\">Costa del Sol</span>. Desde desayunos al amanecer hasta veladas al atardecer, nuestros menús están elaborados para elevar cada momento a bordo.",
     "p2": "Nuestros platos personalizados cuentan solo con los mejores ingredientes: jamón ibérico, caviar, tapas artesanales, fruta fresca de temporada y postres exclusivos, acompañados de champán frío, vinos selectos y refrescantes jugos. Cada pedido se entrega directamente en su yate, listo para disfrutar sin esfuerzo, ya sea para un crucero íntimo, una experiencia con invitados de charter o una celebración especial en el mar.",
-    "p3": "Los pedidos se pueden realizar hasta las 21:00 del día anterior a su evento y no hay un número mínimo de invitados."
+    "p3": "Los pedidos se pueden realizar <span class=\"bold\">hasta las 21:00 del día anterior</span> a su evento y <span class=\"bold\">no hay un número mínimo</span> de invitados."
   },
   "story": {
     "p1": "Cada plato está cuidadosamente elaborado por chefs especializados, combinando sabores gourmet con una presentación refinada. Los platos se empaquetan meticulosamente en neveras isotérmicas para mantener la frescura y la temperatura perfectas, asegurando que todo llegue en condiciones impecables.",

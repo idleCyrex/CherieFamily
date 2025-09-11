@@ -10,9 +10,18 @@ function Second() {
       <img src={wave} alt="wave" className="wave_img unselectable" />
       <div id="second" className="second_container">
         <div className="second_wrapper">
-          <span className="second_desc">{t("second.p1")}</span>
-          <span className="second_desc">{t("second.p2")}</span>
-          <span className="second_desc">{t("second.p3")}</span>
+          <span
+            className="second_desc"
+            dangerouslySetInnerHTML={{ __html: t("second.p1") }}
+          />
+          <span
+            className="second_desc"
+            dangerouslySetInnerHTML={{ __html: t("second.p2") }}
+          />
+          <span
+            className="second_desc"
+            dangerouslySetInnerHTML={{ __html: t("second.p3") }}
+          />
 
           <a href="/Menu Cherie at Sea.pdf" download="Menu Cherie at Sea.pdf">
             <button className="button">
