@@ -13,8 +13,10 @@
     "@vercel/analytics": "^1.5.0",
     "@vercel/speed-insights": "^1.2.0",
     "framer-motion": "^12.5.0",
+    "i18next": "^25.5.2",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "react-i18next": "^15.7.3",
     "react-router-dom": "^7.4.1",
     "react-scroll": "^1.9.3",
     "swiper": "^11.2.10"

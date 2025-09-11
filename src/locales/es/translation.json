@@ -1,0 +1,24 @@
+{
+  "home": "Inicio",
+  "about": "Sobre Nosotros",
+  "menu": "Menú",
+  "contact": "Contáctanos",
+  "welcome": "BIENVENIDO A",
+  "order": "PEDIR EN LÍNEA",
+  "second": {
+    "p1": "En Chérie at Sea, creamos experiencias de catering de lujo diseñadas pensando en el estilo de vida náutico, sirviendo en Marbella, Málaga, Gibraltar y el resto de la Costa del Sol. Desde desayunos al amanecer hasta veladas al atardecer, nuestros menús están elaborados para elevar cada momento a bordo.",
+    "p2": "Nuestros platos personalizados cuentan solo con los mejores ingredientes: jamón ibérico, caviar, tapas artesanales, fruta fresca de temporada y postres exclusivos, acompañados de champán frío, vinos selectos y refrescantes jugos. Cada pedido se entrega directamente en su yate, listo para disfrutar sin esfuerzo, ya sea para un crucero íntimo, una experiencia con invitados de charter o una celebración especial en el mar.",
+    "p3": "Los pedidos se pueden realizar hasta las 21:00 del día anterior a su evento y no hay un número mínimo de invitados."
+  },
+  "story": {
+    "p1": "Cada plato está cuidadosamente elaborado por chefs especializados, combinando sabores gourmet con una presentación refinada. Los platos se empaquetan meticulosamente en neveras isotérmicas para mantener la frescura y la temperatura perfectas, asegurando que todo llegue en condiciones impecables.",
+    "p2": "Nuestros conductores dedicados entregan cada pedido directamente en su yate, donde cada elemento se presenta de manera hermosa y listo para disfrutar de inmediato. Desde delicadas tapas y bocados artesanales hasta postres exclusivos y bebidas frías, proporcionamos una experiencia gastronómica a bordo lujosa y sin contratiempos en cada ocasión.",
+    "cta": "¿Lujo a bordo? Resuelto. ¡Toca para pedir!"
+  },
+  "footer": {
+    "getInTouch": "¡PONTE EN CONTACTO!",
+    "open247": "ABIERTO 24/7",
+    "followUs": "¡SÍGUENOS EN REDES SOCIALES!",
+    "privacyTermsCookies": "Política de Privacidad. Términos de Servicio. Política de Cookies"
+  }
+}

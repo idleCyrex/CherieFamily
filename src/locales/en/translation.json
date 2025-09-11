@@ -1,0 +1,24 @@
+{
+  "home": "Home",
+  "about": "About Us",
+  "menu": "Menu",
+  "contact": "Contact Us",
+  "welcome": "WELCOME TO",
+  "order": "ORDER ONLINE",
+  "second": {
+    "p1": "At Chérie at Sea, we create luxury catering experiences designed with the yachting lifestyle in mind, serving Marbella, Málaga, Gibraltar, and the rest of the Costa del Sol. From sunrise breakfasts to sunset soirées, our menus are crafted to elevate every moment onboard.",
+    "p2": "Our bespoke platters feature only the finest ingredients: jamón ibérico, caviar, artisanal tapas, fresh seasonal fruit, and signature desserts, paired with chilled champagne, fine wines, and refreshing juices. Each order is delivered directly to your yacht, ready to be enjoyed without effort, whether for an intimate cruise, a charter guest experience, or a special celebration at sea.",
+    "p3": "Orders can be placed until 9 PM the day before your event and there is no minimum number of guests."
+  },
+  "story": {
+    "p1": "Every dish is carefully crafted by specialized chefs, blending gourmet flavors with refined presentation. Platters are meticulously packaged in insulated coolers to maintain perfect freshness and temperature, ensuring everything arrives in impeccable condition.",
+    "p2": "Our dedicated drivers deliver each order directly to your yacht, where every item is beautifully arranged and ready to be enjoyed immediately. From delicate tapas and artisanal bites to signature desserts and chilled beverages, we provide a seamless and luxurious onboard dining experience every time.",
+    "cta": "Luxury onboard? Sorted. Tap to order!"
+  },
+  "footer": {
+    "getInTouch": "GET IN TOUCH!",
+    "open247": "OPEN 24/7",
+    "followUs": "FOLLOW US ON SOCIALS!",
+    "privacyTermsCookies": "Privacy Policy. Terms of Service. Cookie Policy"
+  }
+}

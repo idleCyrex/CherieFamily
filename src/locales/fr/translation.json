@@ -1,0 +1,24 @@
+{
+  "home": "Accueil",
+  "about": "À propos",
+  "menu": "Menu",
+  "contact": "Contact",
+  "welcome": "BIENVENUE CHEZ",
+  "order": "COMMANDER EN LIGNE",
+  "second": {
+    "p1": "Chez Chérie at Sea, nous créons des expériences de restauration de luxe pensées pour le style de vie nautique, desservant Marbella, Málaga, Gibraltar et le reste de la Costa del Sol. Du petit-déjeuner au lever du soleil aux soirées au coucher du soleil, nos menus sont conçus pour sublimer chaque moment à bord.",
+    "p2": "Nos plateaux sur mesure présentent uniquement les meilleurs ingrédients : jambon ibérique, caviar, tapas artisanales, fruits de saison frais et desserts signature, accompagnés de champagne frais, de grands vins et de jus rafraîchissants. Chaque commande est livrée directement sur votre yacht, prête à être dégustée sans effort, que ce soit pour une croisière intime, une expérience de charter ou une célébration spéciale en mer.",
+    "p3": "Les commandes peuvent être passées jusqu'à 21h la veille de votre événement et il n'y a aucun nombre minimum d'invités requis."
+  },
+  "story": {
+    "p1": "Chaque plat est soigneusement élaboré par des chefs spécialisés, alliant saveurs gastronomiques et présentation raffinée. Les plateaux sont méticuleusement emballés dans des glacières isolées pour maintenir une fraîcheur et une température parfaites, garantissant que tout arrive en parfait état.",
+    "p2": "Nos chauffeurs dédiés livrent chaque commande directement sur votre yacht, où chaque élément est magnifiquement disposé et prêt à être dégusté immédiatement. Des tapas délicates et bouchées artisanales aux desserts signature et boissons fraîches, nous offrons une expérience culinaire à bord fluide et luxueuse à chaque fois.",
+    "cta": "Luxueux à bord ? C’est réglé. Cliquez pour commander !"
+  },
+  "footer": {
+    "getInTouch": "CONTACTEZ-NOUS !",
+    "open247": "OUVERT 24/7",
+    "followUs": "SUIVEZ-NOUS SUR LES RÉSEAUX !",
+    "privacyTermsCookies": "Politique de confidentialité. Conditions d'utilisation. Politique des cookies"
+  }
+}
