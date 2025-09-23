@@ -6,7 +6,7 @@ import Second from './components/second';
 import Forth from './components/forth';
 import Footer from './components/footer';
 import TermsPopup from './components/TermsPopup';
-import TermsPage from './pages/TermsPage';
+import TermsPage from './pages/TermsPage.jsx';
 import { SpeedInsights } from "@vercel/speed-insights/react";
 import { Analytics } from "@vercel/analytics/react";
 import Story from './components/story';
