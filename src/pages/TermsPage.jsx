@@ -1,9 +1,15 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import logo from "../assets/img/Cherie2.png";
 
 const TermsPage = () => {
     return (
         <div className="terms-page">
+            <div className='terms-img'>
+                <a href='/'> 
+                    <img src={logo} alt='logo'></img>
+                </a>
+            </div>
             <h1>Terms and Conditions</h1>
             <p>Last updated: March 31, 2025</p>
             <p>Please read these terms and conditions carefully before using Our Service.</p>

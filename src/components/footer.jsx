@@ -58,7 +58,7 @@ function Footer() {
               Chérie Exports © 2025<span className="linieeee">|</span>
             </span>
             <span className="footer_desc">
-              {t("footer.privacyTermsCookies")}
+              <a href="/terms">{t("footer.privacyTermsCookies")}</a>
             </span>
           </span>
           <div className="footer_logos">
