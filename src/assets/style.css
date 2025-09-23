@@ -456,7 +456,20 @@ a:hover::before {
 
 }
 .terms-page{
-  color: white;
+  color: #333;
+  padding: 50px;
+}
+.terms-img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.terms-img img{
+  width: 300px;
+}
+.terms-img a::before{
+  height: 0;
 }
 .second-wave{
   border-top: #2c6b53;
@@ -1372,8 +1385,11 @@ a:hover::before {
 }
 .footer_desc{
   font-size: 14px;
-  color: #18375d;
+  color: #18375d !important;
   font-family: 'Poppins', sans-serif;
+}
+.footer_desc a {
+  color: #18375d;
 }
 .footer_logos a::before{
   background-color: transparent !important;
