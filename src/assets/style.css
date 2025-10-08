@@ -1840,9 +1840,9 @@ a:hover::before {
 .menu-items{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
 /* If there is an odd number of items, make the last one span full width */
 .menu-items > .menu-item:last-child:nth-child(odd){grid-column:1 / -1}
-.menu-item{display:flex;justify-content:space-between;align-items:center;background:#eef3f7;padding:12px;border-radius:8px;margin:0}
+.menu-item{display:flex;justify-content:space-between;align-items:flex-start;background:#eef3f7;padding:12px;border-radius:8px;margin:0}
 .menu-item-left{flex:1;min-width:0}
-.menu-item-right{display:flex;flex-direction:column;align-items:flex-end;gap:6px;min-width:120px}
+.menu-item-right{display:flex;flex-direction:column;align-items:flex-end;justify-content:center;gap:6px;min-width:120px;align-self:center}
 .menu-item strong{display:block;color:#18375d}
 .menu-desc{font-size:13px;color:#4f5b68;margin-top:6px}
 .menu-item-left, .menu-desc{word-wrap:break-word;overflow-wrap:anywhere}

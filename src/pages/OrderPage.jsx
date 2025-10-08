@@ -142,11 +142,14 @@ function OrderPage() {
                 return;
               }
               try {
+                const origin = window.location.origin;
                 const resp = await fetch(`${API_URL}/create-checkout-session`, {
                   method: 'POST',
                   headers: { 'Content-Type': 'application/json' },
                   body: JSON.stringify({
                     items: cart,
+                    successUrl: `${origin}/success`,
+                    cancelUrl: `${origin}/order`,
                     details: {
                       name,
                       deliveryDate,

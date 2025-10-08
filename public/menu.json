@@ -1,249 +1,39 @@
 {
-  "source": "public/Menu Cherie at Sea.pdf",
-  "currency": "EUR",
   "sections": [
-    {
-      "name": "Food Menu",
-      "items": []
-    },
-    {
-      "name": "Breakfast",
-      "items": [
-        {
-          "name": "French Breakfast Basket",
-          "description": "Croissants mix (6), fresh bread, jam, butter, and 2 juices — 1–2 pax",
-          "price": 35
-        },
-        {
-          "name": "Avocado Toast with Smoked Salmon",
-          "description": "Toasted bread, avocado slices, smoked salmon — 1 pax",
-          "price": 18
-        },
-        {
-          "name": "Chia Seed Yogurt Parfait",
-          "description": "Yogurt, chia, seasonal fruit — 1 pax",
-          "price": 12
-        },
-        {
-          "name": "Overnight Oats",
-          "description": "Creamy oats, fruit and cereal toppings — 1 pax",
-          "price": 12
-        }
-      ]
-    },
-    {
-      "name": "Aperitivos & Tapas",
-      "items": [
-        {
-          "name": "Jamón Ibérico de Bellota",
-          "description": "100g, thinly sliced, served with fresh bread — 1–2 pax",
-          "price": 50
-        },
-        {
-          "name": "Crudités",
-          "description": "Cucumbers, carrots, peppers, celery, tomatoes, radishes — 1–2 pax",
-          "price": 20
-        },
-        {
-          "name": "Mediterranean Trio Dips",
-          "description": "Trio of hummus, tapenade, tzatziki — 1–2 pax",
-          "price": 18
-        },
-        {
-          "name": "Guacamole with Corn Chips",
-          "description": "Creamy avocado dip, tomatoes, crunchy chips — 1–2 pax",
-          "price": 18
-        },
-        {
-          "name": "Marinated Mediterranean Olives",
-          "description": "Herb-marinated olives, tangy flavors — 1–2 pax",
-          "price": 12
-        },
-        {
-          "name": "Ham & Cheese Sandwiches (4 pcs)",
-          "description": "Classic ham, cheese, butter, fresh bread, 4 triangles — 1–2 pax",
-          "price": 24
-        },
-        {
-          "name": "Salmon Sandwiches (4 pcs)",
-          "description": "Smoked salmon, creamy filling, fresh bread, 4 triangles — 1–2 pax",
-          "price": 29
-        },
-        {
-          "name": "Vegetarian Sandwiches (4 pcs)",
-          "description": "Avocado, lettuce, cucumber, tomatoes, pesto — 1–2 pax",
-          "price": 22
-        },
-        {
-          "name": "Melon Fruit Skewers",
-          "description": "Melon, jamón ibérico, mozzarella — 1–2 pax",
-          "price": 16
-        },
-        {
-          "name": "Watermelon Fruit Skewers",
-          "description": "Watermelon, feta, fresh mint — 1–2 pax",
-          "price": 16
-        }
-      ]
-    },
-    {
-      "name": "Caviar",
-      "items": [
-        {
-          "name": "Ossetra (50g)",
-          "description": "Premium Ossetra caviar, 50g, served with mini blinis",
-          "price": 530
-        },
-        {
-          "name": "Ossetra (100g)",
-          "description": "Premium Ossetra caviar, 100g, served with mini blinis",
-          "price": 1400
-        },
-        {
-          "name": "Beluga (50g)",
-          "description": "Premium Beluga caviar, 50g, served with mini blinis",
-          "price": 650
-        },
-        {
-          "name": "Beluga (100g)",
-          "description": "Premium Beluga caviar, 100g, served with mini blinis",
-          "price": 1550
-        }
-      ]
-    },
-    {
-      "name": "Signature Mains",
-      "items": [
-        {
-          "name": "Fresh Shrimp Ceviche",
-          "description": "Citrus-marinated shrimp, herbs, red onion, avocado — 1 pax",
-          "price": 38
-        },
-        {
-          "name": "Tuna Tataki with Roe",
-          "description": "Seared tuna, topped with roe and sesame, soy dressing — 1 pax",
-          "price": 38
-        },
-        {
-          "name": "Tuna Tartare with Side Salad",
-          "description": "Fresh tuna tartare, sesame, avocado, citrus dressing — 1 pax",
-          "price": 38
-        },
-        {
-          "name": "Beef Tartare with Parmesan with Side Salad",
-          "description": "Hand-chopped beef, Parmesan flakes, romaine, dressing — 1 pax",
-          "price": 36
-        },
-        {
-          "name": "Grilled Octopus \"a la Gallega\"",
-          "description": "Tender octopus, paprika drizzle, lime — 1 pax",
-          "price": 38
-        },
-        {
-          "name": "Tuna Poke Bowl",
-          "description": "Fresh tuna, rice, avocado, edamame, sesame — 1 pax",
-          "price": 32
-        },
-        {
-          "name": "Salmon Poke Bowl",
-          "description": "Fresh salmon, rice, avocado, cucumbers, carrots, sesame — 1 pax",
-          "price": 30
-        },
-        {
-          "name": "Mini Truffle Jamon Sliders (4 pcs)",
-          "description": "Mini brioche buns, jamon iberico, truffle sauce",
-          "price": 34
-        },
-        {
-          "name": "Chicken Caesar Salad",
-          "description": "Grilled chicken, romaine, parmesan, croutons, dressing — 1 pax",
-          "price": 30
-        },
-        {
-          "name": "Vegetarian Chickpea Salad",
-          "description": "Seasonal veggies, grains, light dressing — 1 pax",
-          "price": 30
-        },
-        {
-          "name": "Vegetarian Greek Salad",
-          "description": "Tomato, cucumber, peppers, olives, feta (served separately) — 1 pax",
-          "price": 26
-        }
-      ]
-    },
-    {
-      "name": "Platters",
-      "items": [
-        {
-          "name": "Fresh Seasonal Fruit Platter",
-          "description": "Selection of ripe, seasonal fruit — 2–4 pax",
-          "price": 65
-        },
-        {
-          "name": "Assorted Cheese Platter",
-          "description": "Mixed French & Spanish cheeses, nuts, honey, bread — 2–4 pax",
-          "price": 75
-        },
-        {
-          "name": "Assorted Canapés Platter",
-          "description": "Mixed canapés (salmon, mini wraps, salami blinis, crostinis, etc)",
-          "price": 85
-        },
-        {
-          "name": "Sushi Platter",
-          "description": "Assorted nigiri & rolls, fresh wasabi & ginger — 2–4 pax",
-          "price": 100
-        },
-        {
-          "name": "Mezze Platter",
-          "description": "Pita, hummus, tzatziki, falafel, olives, fresh veggies — 2–4 pax",
-          "price": 70
-        },
-        {
-          "name": "Assorted Desserts — 12 pcs",
-          "description": "Selection of mini desserts — 2–4 pax",
-          "price": 50
-        }
-      ]
-    },
     {
       "name": "Desserts",
       "items": [
         {
           "name": "Panna Cotta",
-          "description": "Silky cream dessert, berry coulis — 1 pax",
+          "description": "Silky cream dessert, berry coulis - 1 pax",
           "price": 14
         },
         {
           "name": "Tiramisu",
-          "description": "Classic Italian layered coffee dessert — 1 pax",
+          "description": "Classic Italian layered coffee dessert - 1 pax",
           "price": 14
         },
         {
           "name": "Arroz con Leche",
-          "description": "Creamy rice pudding, cinnamon sprinkle — 1 pax",
+          "description": "Creamy rice pudding, cinnamon sprinkle - 1 pax",
           "price": 14
         },
         {
           "name": "Chocolate Covered Strawberries",
-          "description": "Fresh strawberries, rich chocolate coating — 1–2 pax",
+          "description": "Fresh strawberries, rich chocolate coating - 1-2 pax",
           "price": 18
         },
         {
           "name": "Dessert of the Week",
-          "description": "Red velvet cake slice — 1 pax",
+          "description": "Red velvet cake slice - 1 pax",
           "price": 18
         },
         {
-          "name": "Chocolate Chip Cookies (2 pcs)",
-          "description": "Freshly baked, chocolate treats — 1 pax",
+          "name": "Chocolate Chip Cookies - 2 pcs",
+          "description": "Freshly baked, chocolate treats - 1 pax",
           "price": 12
         }
       ]
-    },
-    {
-      "name": "Packages Menu",
-      "items": []
     },
     {
       "name": "Packages & Platters",
@@ -309,7 +99,7 @@
           "price": 690
         },
         {
-          "name": "Sushi Platter for 2-4 People",
+          "name": "Sushi for 4-6 People",
           "description": [
             "4 - Futo Frito (Futomaki)",
             "16 - Uramaki (Special Roll, Ghibli)",
@@ -318,79 +108,85 @@
             "Fresh Wasabi, Ginger, Soy Sauce"
           ],
           "price": 240
-        },
-        {
-          "name": "Bundle (Agency Only)",
-          "description": "Sandwiches & Soft Drinks selection",
-          "price": 220
         }
       ]
-    },
-    {
-      "name": "Drinks Menu",
-      "items": []
     },
     {
       "name": "Refreshments & Soft Drinks",
       "items": [
         {
-          "name": "Coca Cola (33cl)",
+          "name": "Coca Cola",
+          "description": "33cl",
           "price": 8
         },
         {
-          "name": "Coca Cola Zero (33cl)",
+          "name": "Coca Cola Zero",
+          "description": "33cl",
           "price": 8
         },
         {
-          "name": "Fanta Orange (33cl)",
+          "name": "Fanta Orange",
+          "description": "33cl",
           "price": 8
         },
         {
-          "name": "Fanta Lemon (33cl)",
+          "name": "Fanta Lemon",
+          "description": "33cl",
           "price": 8
         },
         {
-          "name": "Red Bull (33cl)",
+          "name": "Red Bull",
+          "description": "33cl",
           "price": 9
         },
         {
-          "name": "Still Water (50cl)",
+          "name": "Still Water",
+          "description": "50cl",
           "price": 7
         },
         {
-          "name": "Sparkling Water (50cl)",
+          "name": "Sparkling Water",
+          "description": "50cl",
           "price": 7
         },
         {
-          "name": "Tonic Water (33cl)",
+          "name": "Tonic Water",
+          "description": "33cl",
           "price": 8
         },
         {
-          "name": "Sprite (33cl)",
+          "name": "Sprite",
+          "description": "33cl",
           "price": 8
         },
         {
-          "name": "Panela Lemonade (50cl)",
+          "name": "Panela Lemonade",
+          "description": "50cl",
           "price": 11
         },
         {
-          "name": "Orange Juice (50cl)",
+          "name": "Orange Juice",
+          "description": "50cl",
           "price": 12
         },
         {
-          "name": "Apple Juice (50cl)",
+          "name": "Apple Juice",
+          "description": "50cl",
           "price": 12
         },
         {
-          "name": "Pineapple Juice (50cl)",
+          "name": "Pineapple Juice",
+          "description": "50cl",
           "price": 12
         },
         {
-          "name": "Cranberry Juice (50cl)",
+          "name": "Cranberry Juice",
+          "description": "50cl",
           "price": 12
         },
         {
-          "name": "Ginger Shot (5cl)",
+          "name": "Ginger Shot",
+          "description": "5cl",
           "price": 6
         }
       ]
@@ -399,15 +195,18 @@
       "name": "Beers",
       "items": [
         {
-          "name": "Corona (33cl)",
+          "name": "Corona",
+          "description": "33cl",
           "price": 9
         },
         {
-          "name": "Estrella Galicia (33cl)",
+          "name": "Estrella Galicia",
+          "description": "33cl",
           "price": 9
         },
         {
-          "name": "Heineken (33cl)",
+          "name": "Heineken",
+          "description": "33cl",
           "price": 8
         }
       ]
@@ -416,23 +215,28 @@
       "name": "White Wine",
       "items": [
         {
-          "name": "Viña Tondonia Reserva (Rioja, 75cl)",
+          "name": "Viña Tondonia Reserva",
+          "description": "Rioja, 75cl",
           "price": 84
         },
         {
-          "name": "Chablis Premier Cru (Chablis, 75cl)",
+          "name": "Chablis Premier Cru",
+          "description": "Chablis, 75cl",
           "price": 88
         },
         {
-          "name": "200 Monges Reserva (75cl)",
+          "name": "200 Monges Reserva",
+          "description": "Rioja, 75cl",
           "price": 90
         },
         {
-          "name": "Belondrade y Lurton (Valladolid, 75cl)",
+          "name": "Belondrade y Lurton",
+          "description": "Valladolid, 75cl",
           "price": 104
         },
         {
-          "name": "Pavillon Blanc 2016 (Provence, 75cl)",
+          "name": "Pavillon Blanc 2016",
+          "description": "Provence, 75cl",
           "price": 540
         }
       ]
@@ -441,23 +245,28 @@
       "name": "Red Wine",
       "items": [
         {
-          "name": "Hacienda Monasterio (Valladolid, 75cl)",
+          "name": "Hacienda Monasterio",
+          "description": "Valladolid, 75cl",
           "price": 90
         },
         {
-          "name": "Gran Reserva 904 (Rioja, 75cl)",
+          "name": "Gran Reserva 904",
+          "description": "Rioja, 75cl",
           "price": 140
         },
         {
-          "name": "Marqués de Riscal (Rioja, 75cl)",
+          "name": "Marqués de Riscal",
+          "description": "Rioja, 75cl",
           "price": 160
         },
         {
-          "name": "Marqués de Murrieta (Rioja, 75cl)",
-          "price": 460
+          "name": "Marqués de Murrieta",
+          "description": "Rioja, 75cl",
+          "price": 480
         },
         {
-          "name": "Vega Sicilia Unico (Castilla y León, 75cl)",
+          "name": "Vega Sicilia Unico",
+          "description": "Castilla y León, 75cl",
           "price": 722
         }
       ]
@@ -466,19 +275,23 @@
       "name": "Rosé Wine",
       "items": [
         {
-          "name": "Miraval (Provence, 75cl)",
+          "name": "Miraval",
+          "description": "Provence, 75cl",
           "price": 48
         },
         {
-          "name": "Whispering Angel (Provence, 75cl)",
+          "name": "Whispering Angel",
+          "description": "Provence, 75cl",
           "price": 58
         },
         {
-          "name": "Ott Chateau de Selle (Provence, 75cl)",
+          "name": "Ott Chateau de Selle",
+          "description": "Provence, 75cl",
           "price": 110
         },
         {
-          "name": "Chateau Minuty 281 (Provence, 75cl)",
+          "name": "Chateau Minuty 281",
+          "description": "Provence, 75cl",
           "price": 240
         }
       ]
@@ -487,43 +300,63 @@
       "name": "Champagne & Blanc de Blancs",
       "items": [
         {
-          "name": "Moet & Chandon (Champagne, 75cl)",
+          "name": "Moet & Chandon",
+          "description": "Champagne, 75cl",
           "price": 80
         },
         {
-          "name": "Moet & Chandon Rosé (Champagne, 75cl)",
+          "name": "Moet & Chandon Rosé",
+          "description": "Champagne, 75cl",
           "price": 90
         },
         {
-          "name": "Veuve Clicquot Reserve (Champagne, 75cl)",
+          "name": "Moet & Chandon Imperial",
+          "description": "Champagne, 75cl",
+          "price": 90
+        },
+        {
+          "name": "Veuve Clicquot",
+          "description": "Champagne, 75cl",
+          "price": 90
+        },
+        {
+          "name": "Veuve Clicquot Reserve",
+          "description": "Champagne, 75cl",
           "price": 120
         },
         {
-          "name": "Laurent Perrier Brut (Champagne, 75cl)",
+          "name": "Laurent Perrier Brut",
+          "description": "Champagne, 75cl",
           "price": 130
         },
         {
-          "name": "Ruinart Brut (Champagne, 75cl)",
+          "name": "Ruinart Brut",
+          "description": "Champagne, 75cl",
           "price": 130
         },
         {
-          "name": "Laurent Perrier Rosé (Champagne, 75cl)",
+          "name": "Laurent Perrier Rosé",
+          "description": "Champagne, 75cl",
           "price": 190
         },
         {
-          "name": "Ruinart Blanc de Blancs (Champagne, 75cl)",
+          "name": "Ruinart Bl. de Blancs",
+          "description": "Champagne, 75cl",
           "price": 240
         },
         {
-          "name": "Dom Perignon 2012 (Champagne, 75cl)",
+          "name": "Dom Perignon 2012",
+          "description": "Champagne, 75cl",
           "price": 600
         },
         {
-          "name": "Cristal 2007 (Champagne, 75cl)",
+          "name": "Cristal 2007",
+          "description": "Champagne, 75cl",
           "price": 610
         },
         {
-          "name": "Krug Grande Cuvée (Champagne, 75cl)",
+          "name": "Krug Grande Cuvée",
+          "description": "Champagne, 75cl",
           "price": 630
         }
       ]
@@ -532,63 +365,78 @@
       "name": "Spirits",
       "items": [
         {
-          "name": "Grey Goose (70cl)",
+          "name": "Grey Goose",
+          "description": "70cl",
           "price": 150
         },
         {
           "name": "Grey Goose Jeroboam",
+          "description": "",
           "price": 400
         },
         {
-          "name": "Belvedere (70cl)",
+          "name": "Belvedere",
+          "description": "70cl",
           "price": 150
         },
         {
           "name": "Belvedere Magnum",
+          "description": "",
           "price": 360
         },
         {
           "name": "Belvedere Jeroboam",
+          "description": "",
           "price": 650
         },
         {
-          "name": "Monkey 47 (Gin, 50cl)",
+          "name": "Monkey 47",
+          "description": "Gin, 50cl",
           "price": 140
         },
         {
-          "name": "Zacapa Ron XO (70cl)",
+          "name": "Zacapa Ron XO",
+          "description": "Rum, 70cl",
           "price": 400
         },
         {
-          "name": "Hennessy (70cl)",
+          "name": "Hennessy",
+          "description": "70cl",
           "price": 200
         },
         {
-          "name": "Hennessy XO (70cl)",
+          "name": "Hennessy XO",
+          "description": "70cl",
           "price": 400
         },
         {
-          "name": "Don Julio 1940 (70cl)",
+          "name": "Don Julio 1940",
+          "description": "70cl",
           "price": 630
         },
         {
-          "name": "Patron Silver (70cl)",
+          "name": "Patron Silver",
+          "description": "70cl",
           "price": 120
         },
         {
-          "name": "Patron Reposado (70cl)",
+          "name": "Patron Reposado",
+          "description": "70cl",
           "price": 140
         },
         {
-          "name": "Patron Añejo (70cl)",
+          "name": "Patron Añejo",
+          "description": "70cl",
           "price": 160
         },
         {
-          "name": "Clase Azul Reposado (70cl)",
+          "name": "Clase Azul Reposado",
+          "description": "70cl",
           "price": 590
         },
         {
-          "name": "Clase Azul Gold (70cl)",
+          "name": "Clase Azul Gold",
+          "description": "70cl",
           "price": 820
         }
       ]
@@ -606,10 +454,6 @@
         { "name": "Virgin Mojito", "description": "Lime juice, mint, soda", "price": 9 },
         { "name": "Virgin Spritz", "description": "Citrus, bitters, soda", "price": 9 }
       ]
-    },
-    {
-      "name": "Special Moments",
-      "items": []
     },
     {
       "name": "Event Setups & Cakes",
