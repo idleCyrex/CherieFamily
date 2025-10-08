@@ -14,6 +14,8 @@ function OrderPage() {
   const [phone, setPhone] = useState('');
   const [email, setEmail] = useState('');
   const [notes, setNotes] = useState('');
+  // For date input min value (today)
+  const todayStr = new Date().toISOString().split('T')[0];
 
   // add or increment
   const addToCart = (item, qty = 1) => {
@@ -118,7 +120,7 @@ function OrderPage() {
             <h3>ORDER DETAILS</h3>
             <div className="form-grid">
               <input placeholder="First and Last Name*" value={name} onChange={e => setName(e.target.value)} />
-              <input placeholder="Delivery Date*" value={deliveryDate} onChange={e => setDeliveryDate(e.target.value)} />
+              <input type="date" placeholder="Delivery Date*" aria-label="Delivery Date" value={deliveryDate} min={todayStr} onChange={e => setDeliveryDate(e.target.value)} />
               <input placeholder="Delivery Port" value={deliveryPort} onChange={e => setDeliveryPort(e.target.value)} />
               <input placeholder="Boat" value={boat} onChange={e => setBoat(e.target.value)} />
               <input placeholder="Phone number*" value={phone} onChange={e => setPhone(e.target.value)} />
