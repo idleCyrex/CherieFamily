@@ -1831,6 +1831,7 @@ a:hover::before {
   gap: 30px;
   padding: 20px;
   max-width: 1200px;
+  justify-content: center;
   margin: 0 auto 80px auto;
 }
 .order-list{flex:1}
