@@ -2,6 +2,7 @@ import React from "react";
 import cheireimg1 from "../assets/img/Cherie1.png";
 import cheireimg2 from "../assets/img/Cherie2.png";
 import Navbar from "./navbar";
+import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 
 function Hero() {
@@ -39,14 +40,9 @@ function Hero() {
             </div>
           </div>
           <div className="hero-second fade-in-delay">
-            <a
-              href="/Menu Cherie at Sea.pdf"
-              download="Menu Cherie at Sea.pdf"
-            >
-              <button className="button">
+              <button onClick={() => window.location.href="/order"} className="button">
                 <span>{t("order")}</span>
               </button>
-            </a>
           </div>
         </div>
       </div>

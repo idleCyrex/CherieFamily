@@ -12,9 +12,11 @@ import img4 from '../assets/img/4.jpg';
 import img5 from '../assets/img/5.jpg';
 import img6 from '../assets/img/6.jpg';
 import img7 from '../assets/img/7.jpg';
+import img8 from '../assets/img/8.jpg';
+import img9 from '../assets/img/9.jpg';
 
 function Forth() {
-  const images = [img5, img7, img3, img1, img6, img4, img2];
+  const images = [img5, img9, img7, img3, img1, img6, img4, img8, img2];
 
   return (
     <div className="unselectable">
