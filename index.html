@@ -3,16 +3,58 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Jersey+10&display=swap" rel="stylesheet">
 <script src="https://kit.fontawesome.com/8f321922e1.js" crossorigin="anonymous"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<<<<<<< Updated upstream
     <title>Cherie at Sea</title>
+=======
+    <title>Project: REBORN</title>
+    
+    <style>
+      #splash{position:fixed;inset:0;display:flex;justify-content:center;align-items:center;background:#000;z-index:2147483647;pointer-events:auto;transition:opacity 480ms ease,visibility 480ms ease;will-change:opacity}
+      #splash.fade-out{opacity:0;visibility:hidden;pointer-events:none}
+      .rocar-text{color:#fff;font-family:'Orbitron',system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;font-weight:900;font-size:7.5vw;letter-spacing:.06em;text-transform:uppercase;-webkit-text-stroke:1px rgba(255,255,255,0.02);animation:rocar-flash 1.2s linear infinite}
+      @keyframes rocar-flash{0%{opacity:.06;filter:blur(.8px) drop-shadow(0 0 8px rgba(170,6,6,0))}10%{opacity:1;filter:blur(0) drop-shadow(0 0 18px rgba(170,6,6,.12))}40%{opacity:.35;filter:blur(.4px)}60%{opacity:.9;filter:blur(0) drop-shadow(0 0 24px rgba(255,255,255,.06))}100%{opacity:.06}}
+    </style>
+>>>>>>> Stashed changes
   </head>
   <body>
+    <div id="splash" aria-hidden="false">
+      <h1 class="rocar-text">REBORN</h1>
+    </div>
+
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
+
+    <script>
+      (function(){
+        const splash = document.getElementById('splash');
+        if(!splash) return;
+
+        function removeSplash(){
+          if(!document.body.contains(splash)) return;
+          // mark as hidden for assistive tech
+          splash.setAttribute('aria-hidden', 'true');
+          splash.classList.add('fade-out');
+          // remove from DOM after transition
+          splash.addEventListener('transitionend', function onEnd(){
+            splash.removeEventListener('transitionend', onEnd);
+            if(splash.parentNode) splash.parentNode.removeChild(splash);
+          });
+        }
+
+        // When everything has loaded, wait a short minimum time so the flashing is visible
+        window.addEventListener('load', function(){
+          const MIN_DISPLAY = 1400; // ms
+          setTimeout(removeSplash, MIN_DISPLAY);
+        });
+
+        // Fallback in case load never fires in a timely manner
+        setTimeout(removeSplash, 3500);
+      })();
+    </script>
   </body>
 </html>

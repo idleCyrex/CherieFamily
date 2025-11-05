@@ -12,6 +12,7 @@ const languageFlags = {
 
 function Navbar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [isScrolled, setIsScrolled] = useState(false);
   const [isLangDropdownOpen, setIsLangDropdownOpen] = useState(false);
   const { t, i18n } = useTranslation();
   const location = useLocation();
@@ -75,14 +76,31 @@ function Navbar() {
     }
   }, [location.pathname]);
 
+  // change navbar background when user scrolls
+  useEffect(() => {
+    const onScroll = () => {
+      if (window.scrollY > 10) {
+        setIsScrolled(true);
+      } else {
+        setIsScrolled(false);
+      }
+    };
+
+    // set initial state
+    onScroll();
+
+    window.addEventListener("scroll", onScroll, { passive: true });
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
+
   return (
     <>
-      <div className="navbar">
+      <div className={`navbar ${isScrolled ? "scrolled" : ""}`}>
         <div className="navbarcontainer">
           {/* Logo */}
           <div className="navbarleft">
             <a href="/">
-              <img src={logo} alt="logo" className="logo unselectable" />
+              Project: REBORN
             </a>
           </div>
 
@@ -107,9 +125,7 @@ function Navbar() {
                 </a>
               </>
             )}
-            <a href="/Menu Cherie at Sea.pdf" download="Menu Cherie at Sea.pdf">
-              {t("menu")}
-            </a>
+            {/* menu link removed */}
             {location.pathname === "/" ? (
               <ScrollLink to="forth" smooth={true} duration={500} offset={getOffset("forth")}>
                 {t("contact")}
@@ -120,27 +136,6 @@ function Navbar() {
               </a>
             )}
 
-            {/* Language Dropdown */}
-            <div className="lang-dropdown">
-              <button className="lang-button" onClick={toggleLangDropdown}>
-                <img
-                  src={languageFlags[currentLanguage]}
-                  alt={currentLanguage}
-                  className="current-flag"
-                />
-                <span className={`arrow ${isLangDropdownOpen ? "open" : ""}`}>&#9662;</span>
-              </button>
-              {isLangDropdownOpen && (
-                <div className="lang-menu">
-                  {Object.entries(languageFlags).map(([lng, flagUrl]) => (
-                    <div key={lng} onClick={() => changeLanguage(lng)}>
-                      <img src={flagUrl} alt={lng} />
-                      {lng.toUpperCase()}
-                    </div>
-                  ))}
-                </div>
-              )}
-            </div>
           </div>
 
           {/* Mobile menu button */}
@@ -181,13 +176,7 @@ function Navbar() {
                 </a>
               </>
             )}
-            <a
-              href="/Menu Cherie at Sea.pdf"
-              download="Menu Cherie at Sea.pdf"
-              onClick={toggleMobileMenu}
-            >
-              {t("menu")}
-            </a>
+            {/* mobile menu download removed */}
             {location.pathname === "/" ? (
               <ScrollLink to="forth" smooth={true} duration={500} offset={getOffset("forth")} onClick={toggleMobileMenu}>
                 {t("contact")}
@@ -198,21 +187,6 @@ function Navbar() {
               </a>
             )}
 
-            {/* Mobile flags */}
-            <div className="flags mobile-flags">
-              {Object.entries(languageFlags).map(([lng, flagUrl]) => (
-                <img
-                  key={lng}
-                  src={flagUrl}
-                  alt={lng}
-                  onClick={() => {
-                    changeLanguage(lng);
-                    toggleMobileMenu();
-                  }}
-                  className="flag-icon"
-                />
-              ))}
-            </div>
           </div>
         </div>
       )}
