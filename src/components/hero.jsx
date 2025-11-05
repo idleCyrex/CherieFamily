@@ -32,8 +32,17 @@ function Hero() {
         <div className="herooooo"></div>
 
         <div className="hero-content">
-          <div style={{ marginBottom: '130px'}}>
-            <button to="/play" className="play-button">PLAY FOR FREE</button>
+          <div className="hero-first">
+            <span className="fade-in-delay centeeeer">{t("welcome")}</span>
+            <div className="hero-images fade-in">
+              <img src={cheireimg1} alt="cheire" className="ig1" />
+              <img src={cheireimg2} alt="cheire" className="hero-img" />
+            </div>
+          </div>
+          <div className="hero-second fade-in-delay">
+              <button onClick={() => window.location.href="/order"} className="button">
+                <span>{t("order")}</span>
+              </button>
           </div>
         </div>
       </div>

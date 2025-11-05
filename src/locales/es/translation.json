@@ -1,17 +1,19 @@
 {
   "home": "Inicio",
   "about": "Sobre Nosotros",
+  "menu": "Menú",
   "contact": "Contáctanos",
   "welcome": "BIENVENIDO A",
+  "order": "PEDIR EN LÍNEA",
   "second": {
-    "p1": "En Chérie at Sea, creamos experiencias de catering de lujo diseñadas pensando en el estilo de vida náutico, sirviendo a <span class=\"bold\">Marbella, Ibiza</span>, y al resto de la <span class=\"bold\">Costa del Sol</span>. Desde desayunos al amanecer hasta veladas al atardecer, nuestras propuestas están diseñadas para realzar cada momento a bordo. Más allá del mar, también llevamos nuestro servicio a <span class=\"bold\">villas</span> y <span class=\"bold\">jets privados</span>, garantizando la misma elegancia dondequiera que esté.",
-    "p2": "Nuestras bandejas personalizadas se elaboran con los mejores ingredientes: jamón ibérico, caviar, tapas artesanales, fruta fresca de temporada y postres de autor, maridados con champán frío, vinos selectos y zumos refrescantes. Entregamos bandejas listas para disfrutar en cruceros íntimos, experiencias de chárter y celebraciones especiales en alta mar.",
-    "p3": "Atendemos eventos de todos los tamaños: contáctanos para opciones personalizadas y detalles de entrega."
+    "p1": "En Chérie at Sea, creamos experiencias de catering de lujo diseñadas pensando en el estilo de vida náutico, sirviendo a <span class=\"bold\">Marbella, Ibiza</span>, y al resto de la <span class=\"bold\">Costa del Sol</span>. Desde desayunos al amanecer hasta veladas al atardecer, nuestros menús están diseñados para realzar cada momento a bordo. Más allá del mar, también llevamos nuestro servicio a <span class=\"bold\">villas</span> y <span class=\"bold\">jets privados</span>, garantizando la misma elegancia dondequiera que esté.",
+    "p2": "Nuestras bandejas personalizadas se elaboran con los mejores ingredientes: jamón ibérico, caviar, tapas artesanales, fruta fresca de temporada y postres de autor, maridados con champán frío, vinos selectos y zumos refrescantes. Cada pedido se entrega directamente a usted, listo para disfrutar sin esfuerzo, ya sea para un crucero íntimo, una experiencia de chárter o una celebración especial en alta mar.",
+    "p3": "Los pedidos se pueden realizar <span class=\"bold\">hasta las 21:00 h del día anterior</span> a su evento y <span class=\"bold\">no hay mínimo</span> de invitados. Y sin importar si su barco es pequeño, mediano o grande, lo serviremos siempre con estilo."
   },
   "story": {
     "p1": "Cada plato es elaborado cuidadosamente por chefs especializados, combinando sabores gourmet con una presentación refinada. Los platos se envasan meticulosamente en neveras térmicas para mantener la frescura y temperatura perfectas, garantizando que todo llegue en perfectas condiciones.",
     "p2": "Nuestros dedicados conductores entregan cada pedido directamente a usted, donde cada plato está elegantemente presentado y listo para disfrutar al instante. Desde delicadas tapas y bocados artesanales hasta postres de autor y bebidas frías, le ofrecemos una experiencia gastronómica a bordo impecable y de lujo en todo momento.",
-  "cta": "¿SABOR Y LUJO A BORDO? ¡LISTO! MÁS INFORMACIÓN"
+    "cta": "¿SABOR Y LUJO A BORDO? ¡LISTO! ¡TOCA PARA PEDIR!"
   },
   "footer": {
     "getInTouch": "¡PONTE EN CONTACTO!",

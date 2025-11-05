@@ -1,17 +1,19 @@
 {
   "home": "Home",
   "about": "About Us",
+  "menu": "Menu",
   "contact": "Contact Us",
   "welcome": "WELCOME TO",
-  "second": {
+  "order": "ORDER ONLINE",
+"second": {
   "p1": "At Cherie at Sea, we create luxury catering experiences designed with the yachting lifestyle in mind, serving <span class=\"bold\">Marbella, Ibiza</span>, and the rest of the <span class=\"bold\">Costa del Sol</span>. From sunrise breakfasts to sunset soirées, our menus are crafted to elevate every moment onboard. Beyond the sea, we also bring our service to <span class=\"bold\">villas</span> and <span class=\"bold\">private jets</span>, ensuring you enjoy the same elegance wherever you are.",
-  "p2": "Our bespoke platters feature only the finest ingredients: jamón ibérico, caviar, artisanal tapas, fresh seasonal fruit, and signature desserts, paired with chilled champagne, fine wines, and refreshing juices. We deliver ready-to-enjoy platters for intimate cruises, charter guest experiences, and special celebrations at sea.",
-  "p3": "We accommodate events of all sizes—contact us for tailored options and delivery details."
+  "p2": "Our bespoke platters feature only the finest ingredients: jamón ibérico, caviar, artisanal tapas, fresh seasonal fruit, and signature desserts, paired with chilled champagne, fine wines, and refreshing juices. Each order is delivered directly to you, ready to be enjoyed without effort, whether for an intimate cruise, a charter guest experience, or a special celebration at sea.",
+  "p3": "Orders can be placed <span class=\"bold\">until 9 PM the day before</span> your event and there is <span class=\"bold\">no minimum</span> number of guests. Whether your boat is small, medium, or large, we'll make sure it's served in style."
 },
   "story": {
     "p1": "Every dish is carefully crafted by specialized chefs, blending gourmet flavors with refined presentation. Platters are meticulously packaged in insulated coolers to maintain perfect freshness and temperature, ensuring everything arrives in impeccable condition.",
     "p2": "Our dedicated drivers deliver each order directly to your yacht, where every item is beautifully arranged and ready to be enjoyed immediately. From delicate tapas and artisanal bites to signature desserts and chilled beverages, we provide a seamless and luxurious onboard dining experience every time.",
-  "cta": "Luxury onboard? Sorted. Learn more."
+    "cta": "Luxury onboard? Sorted. Tap to order!"
   },
   "footer": {
     "getInTouch": "GET IN TOUCH!",

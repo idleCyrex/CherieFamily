@@ -1,17 +1,19 @@
 {
   "home": "Accueil",
   "about": "À propos",
+  "menu": "Menu",
   "contact": "Contact",
   "welcome": "BIENVENUE CHEZ",
+  "order": "COMMANDER EN LIGNE",
   "second": {
-    "p1": "Chez Chérie at Sea, nous créons des expériences de restauration de luxe, conçues pour le yachting, à <span class=\"bold\">Marbella, Ibiza</span>, et sur toute la <span class=\"bold\">Costa del Sol</span>. Des petits-déjeuners au lever du soleil aux soirées au coucher du soleil, nos propositions sont conçues pour sublimer chaque instant à bord. Au-delà de la mer, nous apportons également notre service aux <span class=\"bold\">villas</span> et aux <span class=\"bold\">jets privés</span>, pour que vous profitiez de la même élégance où que vous soyez.",
-    "p2": "Nos plateaux sur mesure sont composés uniquement des meilleurs ingrédients : jambon ibérique, caviar, tapas artisanales, fruits frais de saison et desserts signature, le tout accompagné de champagne frais, de vins fins et de jus rafraîchissants. Nous livrons des plateaux prêts à déguster pour des croisières intimes, des expériences charter et des célébrations spéciales en mer.",
-    "p3": "Nous prenons en charge des événements de toutes tailles : contactez-nous pour des options personnalisées et les détails de livraison."
+    "p1": "Chez Chérie at Sea, nous créons des expériences de restauration de luxe, conçues pour le yachting, à <span class=\"bold\">Marbella, Ibiza</span>, et sur toute la <span class=\"bold\">Costa del Sol</span>. Des petits-déjeuners au lever du soleil aux soirées au coucher du soleil, nos menus sont élaborés pour sublimer chaque instant à bord. Au-delà de la mer, nous apportons également notre service aux <span class=\"bold\">villas</span> et aux <span class=\"bold\">jets privés</span>, pour que vous profitiez de la même élégance où que vous soyez.",
+    "p2": "Nos plateaux sur mesure sont composés uniquement des meilleurs ingrédients : jambon ibérique, caviar, tapas artisanales, fruits frais de saison et desserts signature, le tout accompagné de champagne frais, de vins fins et de jus de fruits rafraîchissants. Chaque commande est livrée directement chez vous, prête à être dégustée sans effort, que ce soit pour une croisière intime, une expérience charter ou une célébration spéciale en mer.",
+    "p3": "Les commandes peuvent être passées <span class=\"bold\">jusqu'à 21 h la veille</span> de votre événement, sans <span class=\"bold\">minimum</span> de convives. Et peu importe la taille de votre bateau, petit, moyen ou grand, nous vous servirons toujours avec style."
   },
   "story": {
     "p1": "Chaque plat est soigneusement élaboré par des chefs spécialisés, alliant saveurs gourmandes et présentation raffinée. Les plateaux sont soigneusement emballés dans des glacières isothermes pour préserver une fraîcheur et une température parfaites, garantissant ainsi une arrivée impeccable.",
     "p2": "Nos chauffeurs dédiés livrent chaque commande directement chez vous, où chaque plat est joliment présenté et prêt à être dégusté immédiatement. Des tapas délicates aux bouchées artisanales, en passant par les desserts signature et les boissons fraîches, nous vous offrons une expérience culinaire à bord fluide et luxueuse à chaque fois.",
-  "cta": "DU LUXE À BORD ? C’EST RÉGLÉ. EN SAVOIR PLUS"
+    "cta": "DU LUXE À BORD ? C’EST RÉGLÉ. APPUYEZ POUR COMMANDER !"
   },
   "footer": {
     "getInTouch": "CONTACTEZ-NOUS !",

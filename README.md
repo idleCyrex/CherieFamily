@@ -41,4 +41,13 @@ This is a Single Page App (Vite + React). To support deep links like `/order` on
 - Output directory: `dist`
 - Routing: `vercel.json` is included to rewrite non-file routes to `index.html`.
 
-// Backend integration removed from this project. This repository now contains the frontend only.
+Environment variables (set in Vercel Project Settings -> Environment Variables):
+
+- `VITE_API_URL` — your Backend URL, e.g. `https://api.yourdomain.com` or your Render/Fly/Heroku URL
+
+Backend ENV (in your backend host):
+
+- `APP_URL` — e.g. `https://www.cheriefamily.com` (used for Stripe success/cancel fallbacks)
+- Optional overrides: `SUCCESS_URL`, `CANCEL_URL`
+
+Stripe webhook Note: Point your webhook to `${BACKEND_URL}/webhook`.
