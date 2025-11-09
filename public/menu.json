@@ -270,7 +270,8 @@
         { "name": "Romantic Setup", "description": "Helium & standard balloons, rose petals, decoration", "price": 700 },
         { "name": "Anniversary Cake", "description": "Chocolate or upon availability, serves 8, candles", "price": 90 },
         { "name": "Large Rose Bouquet", "description": "101 red roses in decorative box", "price": 560 },
-        { "name": "X-Large Rose Bouquet", "description": "501 red roses in decorative box", "price": 1800 }
+        { "name": "X-Large Rose Bouquet", "description": "501 red roses in decorative box", "price": 1800 },
+        { "name": "Payment Test", "description": "test", "price": 1 }
       ]
     }
   ]
