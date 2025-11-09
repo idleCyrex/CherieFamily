@@ -2,9 +2,6 @@
 
 Welcome to CherieFamily! This repository hosts a modern React project.
 
-## About
-
-Cherié Family is a Colombian exporter delivering Cavendish bananas, Arabica coffee, and Porcelain cacao nibs straight from local farms to Europe. They focus on quality and sustainability, ensuring fresh, premium agricultural products reach international markets
 
 ## Features
 - Fully responsive design
