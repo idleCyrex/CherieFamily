@@ -110,15 +110,17 @@ function Navbar() {
             <a href="/Menu Cherie at Sea.pdf" download="Menu Cherie at Sea.pdf">
               {t("menu")}
             </a>
-            {location.pathname === "/" ? (
-              <ScrollLink to="forth" smooth={true} duration={500} offset={getOffset("forth")}>
-                {t("contact")}
-              </ScrollLink>
-            ) : (
-              <a href="/" onClick={(e) => { e.preventDefault(); handleNavClick("forth"); }}>
-                {t("contact")}
-              </a>
-            )}
+            {/* Contact page link - navigate to /contact route */}
+            <a
+              href="/contact"
+              onClick={(e) => {
+                e.preventDefault();
+                navigate("/contact");
+                if (isMobileMenuOpen) setIsMobileMenuOpen(false);
+              }}
+            >
+              {t("contact")}
+            </a>
 
             {/* Language Dropdown */}
             <div className="lang-dropdown">
@@ -188,15 +190,17 @@ function Navbar() {
             >
               {t("menu")}
             </a>
-            {location.pathname === "/" ? (
-              <ScrollLink to="forth" smooth={true} duration={500} offset={getOffset("forth")} onClick={toggleMobileMenu}>
-                {t("contact")}
-              </ScrollLink>
-            ) : (
-              <a href="/" onClick={(e) => { e.preventDefault(); handleNavClick("forth"); }}>
-                {t("contact")}
-              </a>
-            )}
+            {/* Mobile menu: go to contact route */}
+            <a
+              href="/contact"
+              onClick={(e) => {
+                e.preventDefault();
+                navigate("/contact");
+                toggleMobileMenu();
+              }}
+            >
+              {t("contact")}
+            </a>
 
             {/* Mobile flags */}
             <div className="flags mobile-flags">

@@ -9,6 +9,8 @@ import TermsPopup from './components/TermsPopup';
 import TermsPage from './pages/TermsPage.jsx';
 import OrderPage from './pages/OrderPage.jsx';
 import SuccessPage from './pages/SuccessPage.jsx';
+import Dashboard from './pages/Dashboard.jsx';
+import Contact from './pages/Contact.jsx';
 import { SpeedInsights } from "@vercel/speed-insights/react";
 import { Analytics } from "@vercel/analytics/react";
 import Story from './components/story';
@@ -17,7 +19,6 @@ function App() {
     return (
         <Router>
             <Routes>
-                {/* Main App Routes */}
                 <Route
                     path="/"
                     element={
@@ -32,13 +33,11 @@ function App() {
                         </>
                     }
                 />
-                {/* Order Page */}
                 <Route path="/order" element={<OrderPage />} />
-                {/* Checkout Success */}
+                <Route path="/contact" element={<Contact />} />
                 <Route path="/success" element={<SuccessPage />} />
-                {/* Terms of Service Page */}
                 <Route path="/terms" element={<TermsPage />} />
-                {/* Redirect for undefined routes */}
+                <Route path="/dashboard" element={<Dashboard />} />
                 <Route path="*" element={<Navigate to="/" />} />
             </Routes>
         </Router>

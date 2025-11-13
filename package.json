@@ -19,6 +19,7 @@
     "react-i18next": "^15.7.3",
     "react-router-dom": "^7.4.1",
     "react-scroll": "^1.9.3",
+    "recharts": "^2.15.4",
     "swiper": "^11.2.10"
   },
   "devDependencies": {

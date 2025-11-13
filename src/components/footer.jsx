@@ -23,20 +23,20 @@ function Footer() {
             <div>
               <div className="contact_icons_wrapper">
                 <a
+                  href="https://wa.me/+33787261414"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="contact_icon_circle"
+                >
+                  <i className="fa-brands fa-whatsapp contact_icon"></i>
+                </a>
+                <a
                   href="https://www.instagram.com/cherieatsea/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="contact_icon_circle"
                 >
                   <i className="fa-brands fa-instagram contact_icon"></i>
-                </a>
-                <a
-                  href="https://www.tiktok.com/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="contact_icon_circle"
-                >
-                  <i className="fa-brands fa-tiktok contact_icon"></i>
                 </a>
                 <a
                   href="https://www.linkedin.com/company/ch%C3%A9rie-exports/"

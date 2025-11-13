@@ -5,7 +5,7 @@ import menuData from '../../public/menu.json';
 import '../assets/style.css';
 
 function OrderPage() {
-  const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:4242';
+  const API_URL = import.meta.env.VITE_API_URL;
   const [cart, setCart] = useState([]);
   const [name, setName] = useState('');
   const [deliveryDate, setDeliveryDate] = useState('');
@@ -14,10 +14,31 @@ function OrderPage() {
   const [phone, setPhone] = useState('');
   const [email, setEmail] = useState('');
   const [notes, setNotes] = useState('');
-  // For date input min value (today)
   const todayStr = new Date().toISOString().split('T')[0];
+  // Capture affiliate code from storage if present
+  const [affiliateRef, setAffiliateRef] = useState('');
+  useEffect(() => {
+    try {
+      // Prefer cookie (has built-in expiry), fallback to localStorage with TTL
+      if (typeof document !== 'undefined') {
+        const m = document.cookie.match(/(?:^|; )affiliate_ref=([^;]+)/);
+        if (m && m[1]) {
+          setAffiliateRef(decodeURIComponent(m[1]));
+          return;
+        }
+      }
+      const code = localStorage.getItem('affiliate_ref') || '';
+      const expStr = localStorage.getItem('affiliate_ref_expires') || '';
+      const exp = Number(expStr);
+      if (code && exp && Date.now() < exp) {
+        setAffiliateRef(code);
+      } else if (exp && Date.now() >= exp) {
+        // Clean up expired
+        try { localStorage.removeItem('affiliate_ref'); localStorage.removeItem('affiliate_ref_expires'); } catch (_) {}
+      }
+    } catch (_) {}
+  }, []);
 
-  // add or increment
   const addToCart = (item, qty = 1) => {
     setCart(prev => {
       const existing = prev.find(i => i.name === item.name);
@@ -52,6 +73,9 @@ function OrderPage() {
     const found = cart.find(i => i.name === item.name);
     return found ? found.qty : 0;
   };
+
+  // total number of items in cart (sum of quantities)
+  const itemCount = cart.reduce((s, i) => s + (i.qty || 0), 0);
 
   return (
     <div>
@@ -92,7 +116,7 @@ function OrderPage() {
         </div>
 
         <div className="details-stack">
-          <div className="summary-box">
+          <div className="summary-box" id="order-summary">
             <h3>ORDER DETAILS</h3>
             <div className="summary-content">
               <div className="summary-food">
@@ -120,7 +144,9 @@ function OrderPage() {
             <h3>ORDER DETAILS</h3>
             <div className="form-grid">
               <input placeholder="First and Last Name*" value={name} onChange={e => setName(e.target.value)} />
-              <input type="date" placeholder="Delivery Date*" aria-label="Delivery Date" value={deliveryDate} min={todayStr} onChange={e => setDeliveryDate(e.target.value)} />
+              <div className="input-with-label">
+                <input id="delivery-date" type="date" aria-label="Delivery Date" value={deliveryDate} min={todayStr} onChange={e => setDeliveryDate(e.target.value)} />
+              </div>
               <input placeholder="Delivery Port" value={deliveryPort} onChange={e => setDeliveryPort(e.target.value)} />
               <input placeholder="Boat" value={boat} onChange={e => setBoat(e.target.value)} />
               <input placeholder="Phone number*" value={phone} onChange={e => setPhone(e.target.value)} />
@@ -160,6 +186,7 @@ function OrderPage() {
                       phone,
                       email,
                       notes,
+                      affiliateRef: affiliateRef || undefined,
                     }
                   })
                 });
@@ -177,6 +204,19 @@ function OrderPage() {
           </div>
         </div>
       </div>
+
+      {/* floating mobile cart button - visible only on small screens */}
+      <button
+        className="mobile-cart-button"
+        aria-label="Vezi coșul"
+        onClick={() => {
+          const el = document.getElementById('order-summary');
+          if (el) el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        }}
+      >
+        <span className="cart-emoji">🛒</span>
+        {itemCount > 0 && <span className="mobile-cart-badge">{itemCount}</span>}
+      </button>
 
       <Footer />
     </div>
