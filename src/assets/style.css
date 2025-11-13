@@ -2228,17 +2228,14 @@ input[type="date"] {
 
 /* Stack details vertically */
 .details-stack {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  flex-basis: 380px;
-  position: sticky;
-  top: 120px;
-  align-self: flex-start;
-  max-height: calc(100vh - 140px);
-  overflow: auto;
-  -webkit-overflow-scrolling: touch;
-  padding-right: 4px;
+display: flex;
+    flex-direction: column;
+    gap: 20px;
+    top: 120px;
+    align-self: flex-start;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+
 }
 .summary-box,
 .form-box {
@@ -2354,10 +2351,10 @@ input[type="date"] {
     order: 1;
   }
   .details-stack {
-    order: 2;
-    position: relative;
-    top: auto;
-    max-height: none;
+        order: 2;
+        position: relative;
+        top: auto;
+        width: 100%;
   }
 }
 

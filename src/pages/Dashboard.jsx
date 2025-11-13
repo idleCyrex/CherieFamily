@@ -465,12 +465,22 @@ const filterBtnStyle = { marginRight: 8, padding: '6px 10px', background: '#eee'
 const activeFilterBtnStyle = { ...filterBtnStyle, background: '#2c6b53', color: '#fff' };
 
 function renderRevenueChart(a, view) {
-  const revenueTotal = (a && a.revenue && typeof a.revenue.total === 'number') ? a.revenue.total : 0;
+  // Backward compatibility: old field `revenue.total` (commission) OR new field `revenue.totalCommissionEur`
+  const commissionTotal = (a && a.revenue && typeof a.revenue.totalCommissionEur === 'number')
+    ? a.revenue.totalCommissionEur
+    : (a && a.revenue && typeof a.revenue.total === 'number' ? a.revenue.total : 0);
+  const grossTotal = (a && a.revenue && typeof a.revenue.totalGrossEur === 'number') ? a.revenue.totalGrossEur : null;
   const byDay = (a && a.revenueByDay) || {};
   const byMonth = (a && a.revenueByMonth) || {};
 
   if (view === 'total') {
-    const data = [{ name: 'Total', value: revenueTotal }];
+    // Show commission and optionally gross if available
+    const data = grossTotal != null
+      ? [
+          { name: 'Commission', value: commissionTotal },
+          { name: 'Gross', value: grossTotal }
+        ]
+      : [ { name: 'Commission', value: commissionTotal } ];
     return (
       <div style={{ height: 240 }}>
         <ResponsiveContainer width="100%" height="100%">
@@ -478,8 +488,8 @@ function renderRevenueChart(a, view) {
             <CartesianGrid strokeDasharray="3 3" />
             <XAxis dataKey="name" />
             <YAxis />
-            <Tooltip formatter={(v) => [`€${Number(v).toFixed(2)}`, 'Commission']} />
-            <Bar dataKey="value" name="Commission" fill="#2c6b53" radius={[4,4,0,0]} />
+            <Tooltip formatter={(v, n) => [`€${Number(v).toFixed(2)}`, n]} />
+            <Bar dataKey="value" name="Value" fill="#2c6b53" radius={[4,4,0,0]} />
           </BarChart>
         </ResponsiveContainer>
       </div>
